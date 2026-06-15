@@ -25,6 +25,7 @@ export default function NewsletterPage() {
             <span className={styles.logoText}>Freshriver.ai</span>
           </div>
           <div className={styles.navLinks}>
+            <a href="#toc">TOC</a>
             <a href="#breaking">Breaking</a>
             <a href="#field-report">Field Report</a>
             <a href="#actions">Three Actions</a>
@@ -34,7 +35,7 @@ export default function NewsletterPage() {
       </nav>
 
       {/* Table of Contents */}
-      <section className={styles.section}>
+      <section id="toc" className={styles.section}>
         <div className={styles.container}>
           <h2>In This Issue</h2>
           <ul className={styles.toc}>
