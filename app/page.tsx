@@ -33,6 +33,22 @@ export default function NewsletterPage() {
         </div>
       </nav>
 
+      {/* Table of Contents */}
+      <section className={styles.section}>
+        <div className={styles.container}>
+          <h2>In This Issue</h2>
+          <ul className={styles.toc}>
+            <li>● BREAKING: Claude Fable 5 — Suspended</li>
+            <li>The Token Paradox</li>
+            <li>Field Report: Who Got Hurt</li>
+            <li>15 Questions to Ask Now</li>
+            <li>MISMO: AI Governance</li>
+            <li>Three Actions This Quarter</li>
+            <li>Freshriver Assessment Offer</li>
+          </ul>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
