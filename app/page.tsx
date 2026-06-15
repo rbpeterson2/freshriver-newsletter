@@ -38,13 +38,13 @@ export default function NewsletterPage() {
         <div className={styles.container}>
           <h2>In This Issue</h2>
           <ul className={styles.toc}>
-            <li>● BREAKING: Claude Fable 5 — Suspended</li>
-            <li>The Token Paradox</li>
-            <li>Field Report: Who Got Hurt</li>
-            <li>15 Questions to Ask Now</li>
-            <li>MISMO: AI Governance</li>
-            <li>Three Actions This Quarter</li>
-            <li>Freshriver Assessment Offer</li>
+            <li><a href="#breaking">● BREAKING: Claude Fable 5 — Suspended</a></li>
+            <li><a href="#paradox">The Token Paradox</a></li>
+            <li><a href="#field-report">Field Report: Who Got Hurt</a></li>
+            <li><a href="#questions">15 Questions to Ask Now</a></li>
+            <li><a href="#mismo">MISMO: AI Governance</a></li>
+            <li><a href="#actions">Three Actions This Quarter</a></li>
+            <li><a href="#offering">Freshriver Assessment Offer</a></li>
           </ul>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function NewsletterPage() {
       </section>
 
       {/* Claude Fable Section */}
-      <section className={styles.section}>
+      <section id="breaking" className={styles.section}>
         <div className={styles.container}>
           <div className={styles.headline}>
             <h2>Claude Fable 5: Launched, Then Suspended by Government Order</h2>
@@ -124,7 +124,7 @@ export default function NewsletterPage() {
       </section>
 
       {/* The Paradox */}
-      <section className={styles.section} style={{ background: 'var(--navy-light)' }}>
+      <section id="paradox" className={styles.section} style={{ background: 'var(--navy-light)' }}>
         <div className={styles.container}>
           <h2>The Paradox Nobody Saw Coming</h2>
           <p className={styles.leadText}>
@@ -163,7 +163,7 @@ export default function NewsletterPage() {
       </section>
 
       {/* The 15 Questions */}
-      <section className={styles.section} style={{ background: 'var(--navy-light)' }}>
+      <section id="questions" className={styles.section} style={{ background: 'var(--navy-light)' }}>
         <div className={styles.container}>
           <h2>The 15 Questions Governance Framework</h2>
           <div className={styles.questionsGrid}>
@@ -208,7 +208,7 @@ export default function NewsletterPage() {
       </section>
 
       {/* MISMO Section */}
-      <section className={styles.section}>
+      <section id="mismo" className={styles.section}>
         <div className={styles.container}>
           <div className={styles.sectionTag}>REGULATORY</div>
           <h2>MISMO: AI Governance & Methodology</h2>
@@ -314,22 +314,6 @@ export default function NewsletterPage() {
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Table of Contents */}
-      <section className={styles.section}>
-        <div className={styles.container}>
-          <h2>In This Issue</h2>
-          <ul className={styles.toc}>
-            <li>● BREAKING: Claude Fable 5 — Suspended</li>
-            <li>The Token Paradox</li>
-            <li>Field Report: Who Got Hurt</li>
-            <li>15 Questions to Ask Now</li>
-            <li>MISMO: AI Governance</li>
-            <li>Three Actions This Quarter</li>
-            <li>Freshriver Assessment Offer</li>
-          </ul>
         </div>
       </section>
 
